@@ -1,4 +1,4 @@
-# Dincord
+# Dinocord
 A WIP Discord library for Deno
 
 # Insperation
