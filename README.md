@@ -1,7 +1,7 @@
 # Dinocord
 A WIP Discord library for Deno
 
-# Insperation
+# Insperation for this project
 
 [Ano.js](https://github.com/ItsYaBoiElijah11/Ano.js)
 
