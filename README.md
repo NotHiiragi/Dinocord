@@ -1,5 +1,6 @@
 # Dinocord
 A WIP Discord library for Deno
+Still working on it lmao!
 
 [Support server](https://discord.gg/YpxKYM2cvE)
 # Insperation for this project
