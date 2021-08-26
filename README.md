@@ -1,6 +1,6 @@
 # Dinocord
 A WIP Discord library for Deno
-Still working on it, why does errors exist?
+Still working on it, why does thing outdate?
 
 [Support server](https://discord.gg/YpxKYM2cvE)
 # Insperation for this project
