@@ -5,7 +5,14 @@ Still working on it,
 [Support server](https://discord.gg/YpxKYM2cvE)
 
 # Example usage (Local machines, without the deno.land)
-WIP
+```typescript
+import WebsocketManager from "./src/client/Client.ts";
+
+const Client = new WebSocketManager();
+
+Client.connect("token");
+```
+(This is still WIP will change to MAIN branch when ready for release!!)
 
 # Insperation for this project
 
