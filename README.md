@@ -6,11 +6,15 @@ Still working on it,
 
 # Example usage (Local machines, without the deno.land)
 ```typescript
-import WebsocketManager from "./src/client/Client.ts";
+import Client from "./src/client/Client.ts";
 
-const Client = new WebSocketManager();
+const WS = new Client();
 
-Client.connect("token");
+WS.on('ready', () => {
+    console.log('Logged in.')
+})
+
+WS.connect("TOKEN")
 ```
 (This is still WIP will change to MAIN branch when ready for release!!)
 
