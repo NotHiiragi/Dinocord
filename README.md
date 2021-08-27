@@ -1,6 +1,6 @@
 # Dinocord
 A WIP Discord library for Deno
-Still working on it,
+Still working on it, AND you NEED Deno
 
 [Support server](https://discord.gg/YpxKYM2cvE)
 
@@ -16,6 +16,9 @@ WS.on('ready', () => {
 
 WS.connect("TOKEN")
 ```
+Then run this line in the bot folders CMD:
+"deno run --allow-net --allow-read index.ts"
+
 (This is still WIP will change to MAIN branch when ready for release!!)
 
 # Insperation for this project
