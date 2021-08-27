@@ -1,5 +1,9 @@
-import WebSocketManager from "./src/ws/WebSocketManager.ts";
+import Client from "./src/client/Client.ts";
 
-const WebSocket = new WebSocketManager();
+const WS = new Client();
 
-WebSocket.connect("token")
+WS.on('ready', () => {
+    console.log('Logged in.')
+})
+
+WS.connect("TOKEN")
