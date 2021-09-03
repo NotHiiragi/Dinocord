@@ -1,3 +1,5 @@
+# Welcome!
+This is DinoCord a WIP project for a [deno](https://deno.land) discord library
 # Dinocord
 A WIP Discord library for Deno
 Still working on it, AND you NEED Deno
