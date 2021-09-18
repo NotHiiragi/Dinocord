@@ -4,9 +4,9 @@ Still working on it,
 
 [Support server](https://discord.gg/YpxKYM2cvE)
 
-# Example usage (Local machines, without the deno.land)
+# Example usage
 ```typescript
-import { Client, createMessage } from './mod.ts';
+import { Client, createMessage } from 'https://deno.land/x/dinocord@v0.0.2/mod.ts';
 
 const client = new Client();
 const TOKEN = "TOKEN";
