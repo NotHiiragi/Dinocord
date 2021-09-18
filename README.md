@@ -5,7 +5,25 @@ Still working on it,
 [Support server](https://discord.gg/YpxKYM2cvE)
 
 # Example usage (Local machines, without the deno.land)
-WIP
+```typescript
+import { Client, createMessage } from './mod.ts';
+
+const client = new Client();
+const TOKEN = "TOKEN";
+
+client.on('ready', () => {
+    console.log('Ready!');
+});
+
+client.on('message', async (message: any) => {
+    console.log(message);
+    if (message.content == 's') {
+        await createMessage('I am a bot!', message.channel_id);
+    }
+});
+
+client.connect(TOKEN);
+```
 
 # Insperation for this project
 

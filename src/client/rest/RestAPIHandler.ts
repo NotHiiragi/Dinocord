@@ -1,4 +1,4 @@
-import Client from "../Client.ts";
+import { Client } from "../Client.ts";
 import { headers } from "../../constants/Payloads.ts";
 
 export default class RestAPIHandler {

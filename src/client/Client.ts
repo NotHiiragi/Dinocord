@@ -5,7 +5,7 @@ import RestAPIHandler from './rest/RestAPIHandler.ts';
 
 
 
-export default class Client extends EventEmitter {
+export class Client extends EventEmitter {
 
     private socket: WebSocketManager = new WebSocketManager(this);
     rest = new RestAPIHandler();
