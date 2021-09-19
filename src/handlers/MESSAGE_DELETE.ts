@@ -1,3 +1,3 @@
 export default function() {
-    console.log('message.deleted')
+    //console.log('message.deleted')
 }
