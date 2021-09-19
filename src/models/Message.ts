@@ -1,5 +1,5 @@
-import { headers } from '../../mod.ts';
-import { Constants } from '../../mod.ts';
+import { headers } from '../constants/Payloads.ts';
+import { Constants } from '../constants/Constants.ts';
 
 export async function createMessage(content: string, channelId: string) {
 
