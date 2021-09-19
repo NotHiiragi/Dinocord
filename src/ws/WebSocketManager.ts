@@ -29,7 +29,7 @@ export default class WebSocketManager {
                 const { t: event, s, op, d } = payload;
                 switch (op) {
                     case OPCODE.Dispatch:
-                        console.log("An event was triggered.");
+                  //      console.log("An event was triggered.");
                         break;
                     case OPCODE.Hello:
                         const { heartbeat_interval } = d;
