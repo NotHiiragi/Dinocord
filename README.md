@@ -2,7 +2,7 @@
 A WIP Discord library for Deno
 Still working on it,
 
-[Support server](https://discord.gg/YpxKYM2cvE)
+[Support server](https://discord.gg/mHsgHhaAKq)
 
 # Example usage
 ```typescript
