@@ -6,7 +6,7 @@ Still working on it,
 
 # Example usage
 ```typescript
-import { Client, createMessage } from 'https://deno.land/x/dinocord@v0.0.6/mod.ts';
+import { Client, createMessage } from 'https://deno.land/x/dinocord@v0.0.7/mod.ts';
 
 const client = new Client();
 const TOKEN = "TOKEN";
